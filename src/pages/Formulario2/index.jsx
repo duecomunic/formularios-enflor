@@ -285,7 +285,7 @@ export function Formulario2() {
           },
           to: [
             {
-              email: "montagemhortitec@rbbeventos.com.br",
+              email: "montagemenflorgf@rbbeventos.com.br",
               name: "Montagem Hortitec",
             },
             {
