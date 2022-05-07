@@ -174,7 +174,7 @@ export function Formulario3() {
     //       {
     //         to: [
     //           {
-    //             email: "montagemhortitec@rbbeventos.com.brgit",
+    //             email: "montagemenflorgf@rbbeventos.com.brgit",
     //           },
     //         ],
     //         subject: "Formulario 04",
@@ -206,7 +206,7 @@ export function Formulario3() {
     //             contratada pela coordenação do evento.</td>
     //         </tr>
     //         <tr><td class="texto_formulario">&nbsp;</td></tr>
-    //         <tr><td class="texto_formulario">Organização da Hortitec<br />
+    //         <tr><td class="texto_formulario">Organização do Enflor & Garden Fair<br />
     //             R. Solidagos, 391 - Morada das Flores - Holambra - SP - 13825-000.</td>
     //         </tr>
     //         <tr><td>&nbsp;</td></tr>
@@ -336,7 +336,7 @@ export function Formulario3() {
         <td align="center">SOLICITAÇÃO DE ELÉTRICA<br /></td>
     </tr><tr><td align="center"><b>&nbsp;<br></b></td></tr>
     <tr><td>&nbsp;</td></tr>
-    <tr><td class="data_limite">ATENÇÃO: Não permitiremos o uso de lâmpadas Halógenas,  HQI ou outros tipos de lâmpadas “quentes”.<br><br>Data limite para credenciamento 22/05/2022<br><br>LEMBRAMOS QUE APÓS A DATA LIMITE NÃO GARANTIREMOS O FORNECIMENTO DE ENERGIA ADICIONAL</td></tr>
+    <tr><td class="data_limite">ATENÇÃO: Não permitiremos o uso de lâmpadas Halógenas,  HQI ou outros tipos de lâmpadas “quentes”.<br><br>Data limite para credenciamento 22/06/2022<br><br>LEMBRAMOS QUE APÓS A DATA LIMITE NÃO GARANTIREMOS O FORNECIMENTO DE ENERGIA ADICIONAL</td></tr>
     <tr><td>&nbsp;</td></tr>
     <tr>
         <td class="texto_formulario">A energia elétrica será fornecida em unidade de KVA fracionado, deverá ser arredondado<br />
@@ -345,7 +345,7 @@ export function Formulario3() {
         contratada pela coordenação do evento.</td>
     </tr>
     <tr><td class="texto_formulario">&nbsp;</td></tr>
-    <tr><td class="texto_formulario">Organização da Hortitec<br />
+    <tr><td class="texto_formulario">Organização do Enflor & Garden Fair<br />
         R. Solidagos, 391 - Morada das Flores - Holambra - SP - 13825-000.</td>
     </tr>
     <tr><td>&nbsp;</td></tr>
@@ -467,13 +467,13 @@ export function Formulario3() {
         "https://api.sendinblue.com/v3/smtp/email",
         {
           sender: {
-            name: "Formulario Hortitec",
+            name: "Formulario do Enflor & Garden Fair",
             email: "form@hortitec.com.br",
           },
           to: [
             {
               email: "montagemenflorgf@rbbeventos.com.br",
-              name: "Montagem Hortitec",
+              name: "Montagem do Enflor & Garden Fair",
             },
             {
               email: emailRemente,
@@ -511,7 +511,7 @@ export function Formulario3() {
           ATENÇÃO: Não permitiremos o uso de lâmpadas Halógenas, HQI ou outros
           tipos de lâmpadas “quentes”.
         </p>
-        <p className="textRed">Data limite para credenciamento 22/05/2022</p>
+        <p className="textRed">Data limite para credenciamento 22/06/2022</p>
         <p className="textRed">
           LEMBRAMOS QUE APÓS A DATA LIMITE NÃO GARANTIREMOS O FORNECIMENTO DE
           ENERGIA ADICIONAL
@@ -524,7 +524,7 @@ export function Formulario3() {
           A instalação elétrica (até o estande) é de responsabilidade da empresa
           instaladora contratada pela coordenação do evento.
         </p>
-        <p>Organização da Hortitec </p>
+        <p>Organização do Enflor & Garden Fair </p>
         <p className="textNormal">
           {" "}
           R. Solidagos, 391 - Morada das Flores - Holambra - SP - 13825-000.

@@ -21,10 +21,10 @@ export function Formulario5() {
 
         <p>
           Relacionamos abaixo todo material a ser utilizado em nosso estande no
-          Hortitec: (descrever apenas equipamentos eletrônicos, móveis e peças
+          Enflor & Garden Fair: (descrever apenas equipamentos eletrônicos, móveis e peças
           de decoração).
         </p>
-        <p>Organização da Hortitec </p>
+        <p>Organização do Enflor & Garden Fair </p>
         <p className="textNormal">
           {" "}
           R. Solidagos, 391 - Morada das Flores - Holambra - SP - 13825-000.

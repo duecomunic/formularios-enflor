@@ -135,18 +135,18 @@ export function Formulario2() {
 		<td class="mensagem"><strong>ATENÇÃO<br>
  O ACABAMENTO FINAL DO ESTANDE NÃO PODERÁ EM<br>HIPÓTESE ALGUMA ULTRAPASSAR  O LIMITE DA ÁREA LOCADA.<br> <br>A RAMPA DE ACESSO À DEFICIENTES DEVERÁ FICAR DENTRO<br>DA ÁREA LOCADA ATENDENDO AS NORMAS DO MANUAL DO EXPOSITOR.</strong></td>
   </tr>
-			<td class="data_limite">Data limite para devolução 27/05/2022</td>
+			<td class="data_limite">Data limite para devolução 27/06/2022</td>
 		  </tr>
 		<tr><td align="center"><b>&nbsp;</b></td></tr>
 		<tr>
-			<td class="texto_formulario">Organização da Hortitec<br />
+			<td class="texto_formulario">Organização do Enflor Garden Fair<br />
 			R. Solidagos, 391 - Morada das Flores - Holambra - SP - 13825-000.</td>
 		  </tr>
 		<tr><td align="center"><b>&nbsp;</b></td></tr>
 		<tr>
 		<td class="texto_formulario">Solicitamos o credenciamento da empresa que foi por nós contratada<br />
 		  para efetuar os serviços de (montagem, decoração, manutenção técnica ou<br />
-		desmontagem) durante a Hortitec</td>
+		desmontagem) durante o Enflor & Garden Fair</td>
 	  </tr>
 	  <tr><td align="center"><b>&nbsp;<br></b></td></tr>		
 	</table>
@@ -248,7 +248,7 @@ export function Formulario2() {
         <tr>
           <td colspan="5" align="center" class="texto_formulario">Estamos cientes que como expositor, somos responsáveis pela permanência dos funcionários da empresa acima citada no recinto da feira.<br />
             Comprometemo-nos ainda a informar à montadora sobre a disponibilidade do Manual do<br />
-            Expositor no site <a href="http://wwwwww.hortitec.com.br" target="_blank">www.hortitec.com.br</a></td>
+            Expositor no site <a href="https://wwwwww.enflor.com.br" target="_blank">www.enflor.com.br</a></td>
         </tr>
         <tr>
           <td colspan="5" align="center" class="texto_formulario">Responsável pelo preenchimento</td>
@@ -280,13 +280,13 @@ export function Formulario2() {
         "https://api.sendinblue.com/v3/smtp/email",
         {
           sender: {
-            name: "Formulario Hortitec",
+            name: "Formulario Enflor & Garden Fair",
             email: "form@hortitec.com.br",
           },
           to: [
             {
               email: "montagemenflorgf@rbbeventos.com.br",
-              name: "Montagem Hortitec",
+              name: "Montagem Enflor e Garden Fair",
             },
             {
               email: emailRemente,
@@ -322,8 +322,7 @@ export function Formulario2() {
         <h1>Formulário 02</h1>
         <span>AUTORIZAÇÃO E CADASTRO DE MONTADORA</span>
         <p>
-          (este formulário deve ser enviado pelo expositor) Enviar o formulário
-          para: montagemhortitec@rbbeventos.com.br
+          
         </p>
         <div className="containerRed">
           <p>
@@ -335,9 +334,9 @@ export function Formulario2() {
             ATENDENDO AS NORMAS DO MANUAL DO EXPOSITOR.
           </p>
         </div>
-        <p className="textRed">Data limite para devolução 27/05/2022</p>
+        <p className="textRed">Data limite para devolução 27/06/2022</p>
 
-        <p>Organização da Hortitec </p>
+        <p>Organização do Enflor & Garden Fair </p>
         <p className="textNormal">
           {" "}
           R. Solidagos, 391 - Morada das Flores - Holambra - SP - 13825-000.
@@ -345,7 +344,7 @@ export function Formulario2() {
         <p>
           Solicitamos o credenciamento da empresa que foi por nós contratada
           para efetuar os serviços de (montagem, decoração, manutenção técnica
-          ou desmontagem) durante a Hortitec 2018.
+          ou desmontagem) durante o Enflor & Garden Fair 2022.
         </p>
       </div>
       <div className="filds">
@@ -531,7 +530,7 @@ export function Formulario2() {
         Comprometemo-nos ainda a informar à montadora sobre a disponibilidade do
         Manual do
       </p>
-      <p className="textRed">Expositor no site www.hortitec.com.br</p>
+      <p className="textRed">Expositor no site www.enflor.com.br</p>
       <h3 className="resp">Responsável pelo preenchimento</h3>
       <div className="input1">
         <label>Nome *</label>

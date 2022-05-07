@@ -1,4 +1,4 @@
-import react, { useState } from "react";
+import react, { useState, useEffect } from "react";
 import axios from "axios";
 
 import "./style.css";
@@ -91,10 +91,10 @@ export function Formulario1() {
             <td align="center">INSERÇÃO GRATUITA NO CATÁLOGO OFICIAL<br /></td>
         </tr>
 		 <tr><td>&nbsp;</td></tr>
-		 <tr><td class="data_limite">Data limite para devolução 22/04/2022</td></tr>
+		 <tr><td class="data_limite">Data limite para devolução 17/05/2022</td></tr>
         <tr><td>&nbsp;</td></tr>        
         <tr>
-            <td class="texto_formulario">Organização da Hortitec<br />
+            <td class="texto_formulario">Organização do Enflor & Garden Fair<br />
             R. Solidagos, 391 - Morada das Flores - Holambra - SP - 13825-000.</td>
         </tr>
 		<tr><td align="center"><b>&nbsp;<br></b></td></tr>
@@ -198,13 +198,13 @@ export function Formulario1() {
         "https://api.sendinblue.com/v3/smtp/email",
         {
           sender: {
-            name: "Formulario Hortitec",
+            name: "Formulario Enflor & Garden Fair",
             email: "form@hortitec.com.br",
           },
           to: [
             {
               email: "montagemenflorgf@rbbeventos.com.br",
-              name: "Montagem Hortitec",
+              name: "Montagem Enflor & Garden Fair",
             },
             {
               email: emailRemente,
@@ -239,9 +239,9 @@ export function Formulario1() {
       <div className="textHeader">
         <h1>Formulário 01</h1>
         <span>INSERÇÃO GRATUITA NO CATÁLOGO OFICIAL</span>
-        <p className="textRed">Data limite para devolução 22/04/2022</p>
+        <p className="textRed">Data limite para devolução 17/05/2022</p>
 
-        <p>Organização da Hortitec </p>
+        <p>Organização do Enflor & Garden Fair </p>
         <p className="textNormal">
           {" "}
           R. Solidagos, 391 - Morada das Flores - Holambra - SP - 13825-000.
@@ -384,7 +384,7 @@ export function Formulario1() {
         </div>
         <div className="textArea">
           <label>Principais Produtos: máximo 200 caracteres </label>
-          <textarea onChange={(ev) => setPrincipaisProdutos(ev.target.value)}>
+          <textarea onChange={(ev) => setPrincipaisProdutos(ev.target.value)} maxlength="200">
             {principaisProdutos}
           </textarea>
         </div>
